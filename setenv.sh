@@ -1,0 +1,6 @@
+export CATALINA_OPTS="$CATALINA_OPTS -Dfile.encoding=UTF-8"
+export CATALINA_OPTS="$CATALINA_OPTS -XX:MaxMetaspaceSize=256m"
+export CATALINA_OPTS="$CATALINA_OPTS -XX:+HeapDumpOnOutOfMemoryError"
+export CATALINA_OPTS="$CATALINA_OPTS -XX:HeapDumpPath=/var/external-files/dumps"
+export CATALINA_OPTS="$CATALINA_OPTS -Xms256m"
+export CATALINA_OPTS="$CATALINA_OPTS -Xmx378m"
